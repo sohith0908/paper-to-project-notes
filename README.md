@@ -4,18 +4,24 @@ Turn a research paper into mini-project notes + viva pack (problem, method, plan
 
 Works from **PDF upload**, **pasted text**, or **title / DOI / arXiv id** search. Heuristics always run; an OpenAI key is optional (checker only).
 
+## Live app (use this link)
+
+**Anyone can open it in a browser — no install:**
+
+👉 **https://paper-to-project-notes-gq8eupt2k8vyzd3q6kt7gy.streamlit.app/**
+
+1. Open the link  
+2. Upload a PDF, paste text, or search by title/DOI  
+3. Click **Generate project notes**  
+4. Check **Proposal** / **Viva notes** and download if needed  
+
+Hosted on [Streamlit Community Cloud](https://share.streamlit.io) from this repo.
+
 ---
 
-## Go live for everyone (recommended)
+## Redeploy / update the live app
 
-So **anyone** opens a link — no CMD, no Python install:
-
-1. Log in once: `gh auth login` (browser).
-2. Double-click **`deploy_github.bat`** (creates a **public** GitHub repo and pushes).
-3. Open https://share.streamlit.io → **New app** → pick that repo → Main file: **`app.py`** → **Deploy**.
-4. Share the `*.streamlit.app` URL.
-
-Step-by-step: see **[DEPLOY.md](DEPLOY.md)**.
+If you change the code and push to GitHub, Streamlit usually rebuilds automatically. Manual setup notes: **[DEPLOY.md](DEPLOY.md)**.
 
 ---
 
