@@ -1,0 +1,19 @@
+{
+  "id": "g15_resnet_survey",
+  "title": "Deep Residual Networks: A Survey",
+  "paper_type": "survey",
+  "task_type": "image_classification",
+  "datasets": [
+    "ImageNet",
+    "CIFAR-10"
+  ],
+  "metrics": [],
+  "components": [
+    "ResNet",
+    "residual block",
+    "skip connection",
+    "bottleneck",
+    "batch normalization"
+  ],
+  "text": "Deep Residual Networks: A Survey\nAbstract\nWhy residual networks work is not fully understood yet. This survey reviews ResNet variants, residual blocks, skip connections, bottleneck designs, and batch normalization. Literature often uses ImageNet and CIFAR-10. No new method is proposed.\n"
+}

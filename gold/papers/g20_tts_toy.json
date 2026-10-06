@@ -1,0 +1,15 @@
+{
+  "id": "g20_tts_toy",
+  "title": "A Toy Text-to-Speech Pipeline for Bell Schedules",
+  "paper_type": "method",
+  "task_type": "speech",
+  "datasets": [],
+  "metrics": [
+    "MOS"
+  ],
+  "components": [
+    "TTS",
+    "mel-spectrogram"
+  ],
+  "text": "A Toy Text-to-Speech Pipeline for Bell Schedules\nAbstract\nWe prototype text-to-speech (TTS) using mel-spectrograms for short bell announcements and collect MOS listening scores. This is speech synthesis, not ASR.\n"
+}

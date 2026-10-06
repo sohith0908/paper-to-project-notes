@@ -1,0 +1,19 @@
+Sentiment Analysis of Product Reviews using Machine Learning
+
+Abstract
+Online shopping platforms generate millions of product reviews. Manually reading every review is impractical for businesses that want fast feedback on customer satisfaction. This paper addresses the problem of automatically classifying product reviews as positive, negative, or neutral using supervised machine learning. We propose a lightweight text classification pipeline based on TF-IDF features and a Linear Support Vector Machine (SVM), and we compare it against Naive Bayes and Logistic Regression baselines.
+
+Introduction
+Customer reviews influence purchasing decisions and brand reputation. The core problem is to convert unstructured review text into a reliable sentiment label with high precision and recall. Existing deep learning approaches can be accurate but often require large labeled corpora and expensive compute, which is difficult for small teams and student projects. Our motivation is to show that classical NLP features combined with linear classifiers can still deliver strong results on common review benchmarks.
+
+Methodology
+Our method has four steps. First, we clean review text by lowercasing, removing URLs and special characters, and applying stopword removal. Second, we convert documents into numerical vectors using TF-IDF with unigrams and bigrams. Third, we train a Linear SVM classifier with class balancing. Fourth, we evaluate the model using stratified train-test splits and report Accuracy, Precision, Recall, and F1-score. We also visualize confusion matrices and top positive/negative terms.
+
+Dataset
+We evaluate on a publicly available Amazon product review subset containing 10,000 labeled reviews across electronics and home categories. Each sample includes review text and a star rating that we map to three sentiment classes: positive (4–5 stars), neutral (3 stars), and negative (1–2 stars). The dataset is split 80/20 for training and testing with stratification.
+
+Experiments and Metrics
+We compare Multinomial Naive Bayes, Logistic Regression, and Linear SVM. Linear SVM achieves the best performance with Accuracy 0.89, Macro-F1 0.87, Precision 0.88, and Recall 0.86. Logistic Regression is close (Accuracy 0.87), while Naive Bayes is weaker on neutral reviews. Error analysis shows sarcasm and mixed-aspect reviews remain difficult.
+
+Conclusion
+A TF-IDF + Linear SVM pipeline is a practical and interpretable approach for product review sentiment analysis. Future work includes aspect-based sentiment and lightweight transformer fine-tuning when more labeled data is available.

@@ -1,0 +1,17 @@
+{
+  "id": "g22_lightgbm_fraud",
+  "title": "LightGBM for Transaction Fraud Tabular Scores",
+  "paper_type": "method",
+  "task_type": "classic_tabular_ml",
+  "datasets": [
+    "Higgs"
+  ],
+  "metrics": [
+    "AUC"
+  ],
+  "components": [
+    "LightGBM",
+    "gradient boosting"
+  ],
+  "text": "LightGBM for Transaction Fraud Tabular Scores\nAbstract\nLightGBM gradient boosting on a Higgs-like tabular fraud set yields AUC 0.91. Feature importance guides thresholds.\n"
+}

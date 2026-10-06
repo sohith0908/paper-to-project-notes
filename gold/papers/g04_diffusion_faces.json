@@ -1,0 +1,18 @@
+{
+  "id": "g04_diffusion_faces",
+  "title": "Denoising Diffusion for Low-Res Face Sketches",
+  "paper_type": "method",
+  "task_type": "generative_models",
+  "datasets": [
+    "CelebA"
+  ],
+  "metrics": [
+    "FID",
+    "Inception Score"
+  ],
+  "components": [
+    "diffusion",
+    "U-Net denoiser"
+  ],
+  "text": "Denoising Diffusion for Low-Res Face Sketches\nAbstract\nWe present a denoising diffusion model with a U-Net denoiser for sketch faces on CelebA. FID and Inception Score are reported. Training diffusion models from scratch is compute heavy.\n"
+}

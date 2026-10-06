@@ -1,0 +1,16 @@
+{
+  "id": "g24_mf_books",
+  "title": "Matrix Factorization for Library Book Recommender",
+  "paper_type": "method",
+  "task_type": "recommender",
+  "datasets": [],
+  "metrics": [
+    "NDCG",
+    "RMSE"
+  ],
+  "components": [
+    "matrix factorization",
+    "collaborative filtering"
+  ],
+  "text": "Matrix Factorization for Library Book Recommender\nAbstract\nA campus library recommender system uses matrix factorization collaborative filtering. NDCG and RMSE are primary metrics.\n"
+}

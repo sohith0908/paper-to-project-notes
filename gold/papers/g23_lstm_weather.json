@@ -1,0 +1,16 @@
+{
+  "id": "g23_lstm_weather",
+  "title": "LSTM Weather Nowcasting on Campus Sensors",
+  "paper_type": "method",
+  "task_type": "time_series",
+  "datasets": [],
+  "metrics": [
+    "RMSE",
+    "MAE"
+  ],
+  "components": [
+    "LSTM",
+    "lag features"
+  ],
+  "text": "LSTM Weather Nowcasting on Campus Sensors\nAbstract\nWe cast campus sensor weather as time-series forecasting with an LSTM and lag features. RMSE and MAE beat a persistence baseline.\n"
+}

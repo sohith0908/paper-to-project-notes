@@ -1,0 +1,17 @@
+{
+  "id": "g13_yolo_campus",
+  "title": "YOLOv8n for Bike Detection on Campus Paths",
+  "paper_type": "method",
+  "task_type": "object_detection_tracking",
+  "datasets": [
+    "COCO"
+  ],
+  "metrics": [
+    "mAP50"
+  ],
+  "components": [
+    "YOLOv8n",
+    "NMS"
+  ],
+  "text": "YOLOv8n for Bike Detection on Campus Paths\nAbstract\nWe fine-tune YOLOv8n for object detection of bicycles with bounding boxes. mAP50 is 0.61 on a COCO-format campus set. Tracking is future work.\n"
+}

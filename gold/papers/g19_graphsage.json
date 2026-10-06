@@ -1,0 +1,18 @@
+{
+  "id": "g19_graphsage",
+  "title": "GraphSAGE-style Embeddings for Club Networks",
+  "paper_type": "method",
+  "task_type": "graph_ml",
+  "datasets": [
+    "CiteSeer"
+  ],
+  "metrics": [
+    "F1"
+  ],
+  "components": [
+    "GNN",
+    "node embedding",
+    "message passing"
+  ],
+  "text": "GraphSAGE-style Embeddings for Club Networks\nAbstract\nWe learn node embeddings with a graph neural network (GNN) message passing model on CiteSeer for node classification. Macro-F1 is 0.74.\n"
+}

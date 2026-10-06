@@ -1,0 +1,16 @@
+{
+  "id": "g21_ner_biomed",
+  "title": "Biomedical Named Entity Recognition with Transformers",
+  "paper_type": "method",
+  "task_type": "nlp_text",
+  "datasets": [],
+  "metrics": [
+    "F1"
+  ],
+  "components": [
+    "transformer",
+    "tokenizer",
+    "NER"
+  ],
+  "text": "Biomedical Named Entity Recognition with Transformers\nAbstract\nWe fine-tune a transformer tokenizer pipeline for named entity recognition in biomedical abstracts and report entity-level F1. NLP evaluation only.\n"
+}

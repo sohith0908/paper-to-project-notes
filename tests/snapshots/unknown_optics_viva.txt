@@ -1,0 +1,42 @@
+# Viva Notes
+
+**Paper:** Optics notes
+**Paper type:** method
+**Task type:** Unknown (please confirm) (`unknown`)
+**Components:** No named modules clearly detected — describe the pipeline stages in your own words.
+
+## Component status
+_No components detected._
+
+## Q1. In one minute, what problem does “Optics notes” tackle?
+We document calibration drift.
+
+## Q2. What method did the authors propose (or is this a survey)?
+We document calibration drift.
+
+## Q3. Why is this a `unknown` project?
+Evidence is weak — confirm the task type from the abstract before locking the plan.
+
+## Q4. Which named components will you implement vs approximate vs cite?
+Paper components: **No named modules clearly detected — describe the pipeline stages in your own words.**
+
+_No components detected._
+
+Note: plan suggestions like ResNet-18 belong in the implementation plan, not as invented paper modules.
+
+## Q5. What data did the paper use, and what will you use for the mini project?
+No named dataset found in a dataset section or lexicon match (ImageNet, CIFAR-10, COCO, …).
+
+Mini-project substitute: use a smaller public proxy dataset and state the size gap explicitly.
+
+## Q6. Which evaluation metrics matter here, and what did the paper report?
+Not found in the text. Typical for this task: accuracy, F1, RMSE.
+
+## Q7. What are the main limitations of your student build?
+Smaller data/compute, simplified modules, fewer experiments. Do not claim paper SOTA numbers.
+
+## Q8. Walk through your end-to-end pipeline in under two minutes.
+Input → preprocess → core steps for Unknown (please confirm) → metrics/visualization → demo.
+
+## Q9. What task type is this paper?
+Cite abstract evidence; do not force a template.

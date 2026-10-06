@@ -1,0 +1,460 @@
+{
+  "n": 28,
+  "task_accuracy": 1.0,
+  "task_top2_accuracy": 1.0,
+  "mean_component_precision": 0.905187074829932,
+  "mean_component_recall": 0.8363095238095238,
+  "mean_metrics_exact": 0.9464285714285714,
+  "mean_dataset_hit": 1.0,
+  "per_paper": [
+    {
+      "paper_id": "g01_leaf_disease_cnn",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 0.3333333333333333,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "image_classification",
+        "gold_task": "image_classification",
+        "cand": [
+          "image_classification",
+          "object_detection_tracking"
+        ]
+      }
+    },
+    {
+      "paper_id": "g02_unet_lung",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "semantic_segmentation",
+        "gold_task": "semantic_segmentation",
+        "cand": [
+          "semantic_segmentation"
+        ]
+      }
+    },
+    {
+      "paper_id": "g03_toy_dcgan",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "generative_models",
+        "gold_task": "generative_models",
+        "cand": [
+          "generative_models"
+        ]
+      }
+    },
+    {
+      "paper_id": "g04_diffusion_faces",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "generative_models",
+        "gold_task": "generative_models",
+        "cand": [
+          "generative_models"
+        ]
+      }
+    },
+    {
+      "paper_id": "g05_ppo_cartpole",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.5,
+      "component_recall": 0.3333333333333333,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "reinforcement_learning",
+        "gold_task": "reinforcement_learning",
+        "cand": [
+          "reinforcement_learning"
+        ]
+      }
+    },
+    {
+      "paper_id": "g06_gcn_cora",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "graph_ml",
+        "gold_task": "graph_ml",
+        "cand": [
+          "graph_ml"
+        ]
+      }
+    },
+    {
+      "paper_id": "g07_whisper_tiny",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "speech",
+        "gold_task": "speech",
+        "cand": [
+          "speech"
+        ]
+      }
+    },
+    {
+      "paper_id": "g08_sentiment_tfidf",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 0.5,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "nlp_text",
+        "gold_task": "nlp_text",
+        "cand": [
+          "nlp_text"
+        ]
+      }
+    },
+    {
+      "paper_id": "g09_bert_multitask",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "nlp_text",
+        "gold_task": "nlp_text",
+        "cand": [
+          "nlp_text"
+        ]
+      }
+    },
+    {
+      "paper_id": "g10_xgboost_churn",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "classic_tabular_ml",
+        "gold_task": "classic_tabular_ml",
+        "cand": [
+          "classic_tabular_ml"
+        ]
+      }
+    },
+    {
+      "paper_id": "g11_arima_energy",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "time_series",
+        "gold_task": "time_series",
+        "cand": [
+          "time_series"
+        ]
+      }
+    },
+    {
+      "paper_id": "g12_cf_movies",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 0.5,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "recommender",
+        "gold_task": "recommender",
+        "cand": [
+          "recommender"
+        ]
+      }
+    },
+    {
+      "paper_id": "g13_yolo_campus",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 0.5,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "object_detection_tracking",
+        "gold_task": "object_detection_tracking",
+        "cand": [
+          "object_detection_tracking"
+        ]
+      }
+    },
+    {
+      "paper_id": "g14_bytetrack_lobby",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "object_detection_tracking",
+        "gold_task": "object_detection_tracking",
+        "cand": [
+          "object_detection_tracking"
+        ]
+      }
+    },
+    {
+      "paper_id": "g15_resnet_survey",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.8333333333333334,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "image_classification",
+        "gold_task": "image_classification",
+        "cand": [
+          "image_classification"
+        ]
+      }
+    },
+    {
+      "paper_id": "g16_he_resnet",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.42857142857142855,
+      "component_recall": 0.75,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "image_classification",
+        "gold_task": "image_classification",
+        "cand": [
+          "image_classification"
+        ]
+      }
+    },
+    {
+      "paper_id": "g17_maskrcnn_lite",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 0.5,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "semantic_segmentation",
+        "gold_task": "semantic_segmentation",
+        "cand": [
+          "semantic_segmentation"
+        ]
+      }
+    },
+    {
+      "paper_id": "g18_dqn_grid",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.6666666666666666,
+      "component_recall": 0.6666666666666666,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "reinforcement_learning",
+        "gold_task": "reinforcement_learning",
+        "cand": [
+          "reinforcement_learning"
+        ]
+      }
+    },
+    {
+      "paper_id": "g19_graphsage",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.75,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "graph_ml",
+        "gold_task": "graph_ml",
+        "cand": [
+          "graph_ml"
+        ]
+      }
+    },
+    {
+      "paper_id": "g20_tts_toy",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.5,
+      "component_recall": 0.5,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "speech",
+        "gold_task": "speech",
+        "cand": [
+          "speech"
+        ]
+      }
+    },
+    {
+      "paper_id": "g21_ner_biomed",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 0.6666666666666666,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "nlp_text",
+        "gold_task": "nlp_text",
+        "cand": [
+          "nlp_text"
+        ]
+      }
+    },
+    {
+      "paper_id": "g22_lightgbm_fraud",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 0.6666666666666666,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "classic_tabular_ml",
+        "gold_task": "classic_tabular_ml",
+        "cand": [
+          "classic_tabular_ml"
+        ]
+      }
+    },
+    {
+      "paper_id": "g23_lstm_weather",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "time_series",
+        "gold_task": "time_series",
+        "cand": [
+          "time_series"
+        ]
+      }
+    },
+    {
+      "paper_id": "g24_mf_books",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "recommender",
+        "gold_task": "recommender",
+        "cand": [
+          "recommender"
+        ]
+      }
+    },
+    {
+      "paper_id": "g25_unknown_optics",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "unknown",
+        "gold_task": "unknown",
+        "cand": [
+          "unknown"
+        ]
+      }
+    },
+    {
+      "paper_id": "g26_resnet_coco_multitask",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 0.6666666666666666,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "image_classification",
+        "gold_task": "image_classification",
+        "cand": [
+          "image_classification"
+        ]
+      }
+    },
+    {
+      "paper_id": "g27_ambiguous_network",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 0.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "unknown",
+        "gold_task": "unknown",
+        "cand": [
+          "unknown"
+        ]
+      }
+    },
+    {
+      "paper_id": "g28_speech_vs_nlp_trap",
+      "task_correct": true,
+      "task_in_top2": true,
+      "component_precision": 1.0,
+      "component_recall": 1.0,
+      "metrics_exact": 1.0,
+      "dataset_hit": 1.0,
+      "details": {
+        "pred_task": "speech",
+        "gold_task": "speech",
+        "cand": [
+          "speech"
+        ]
+      }
+    }
+  ]
+}

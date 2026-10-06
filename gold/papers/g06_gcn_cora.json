@@ -1,0 +1,18 @@
+{
+  "id": "g06_gcn_cora",
+  "title": "Shallow GCN for Citation Node Classification",
+  "paper_type": "method",
+  "task_type": "graph_ml",
+  "datasets": [
+    "Cora"
+  ],
+  "metrics": [
+    "accuracy"
+  ],
+  "components": [
+    "GCN",
+    "message passing",
+    "graph convolution"
+  ],
+  "text": "Shallow GCN for Citation Node Classification\nAbstract\nWe train a graph convolutional network (GCN) with message passing for node classification on Cora. Accuracy reaches 0.81. Link prediction is out of scope.\n"
+}

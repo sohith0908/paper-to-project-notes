@@ -1,0 +1,18 @@
+{
+  "id": "g08_sentiment_tfidf",
+  "title": "TF-IDF Linear SVM for Course Review Sentiment",
+  "paper_type": "method",
+  "task_type": "nlp_text",
+  "datasets": [
+    "IMDB"
+  ],
+  "metrics": [
+    "F1",
+    "accuracy"
+  ],
+  "components": [
+    "TF-IDF",
+    "SVM"
+  ],
+  "text": "TF-IDF Linear SVM for Course Review Sentiment\nAbstract\nWe perform text classification / sentiment analysis with TF-IDF features and a linear SVM on an IMDB-like review set. Accuracy 0.88 and F1 0.87.\n"
+}

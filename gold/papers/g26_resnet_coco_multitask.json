@@ -1,0 +1,20 @@
+{
+  "id": "g26_resnet_coco_multitask",
+  "title": "Residual Backbones for Classification and COCO Detection",
+  "paper_type": "method",
+  "task_type": "image_classification",
+  "datasets": [
+    "ImageNet",
+    "COCO"
+  ],
+  "metrics": [
+    "top-1 error",
+    "mAP"
+  ],
+  "components": [
+    "ResNet",
+    "residual block",
+    "FPN"
+  ],
+  "text": "Residual Backbones for Classification and COCO Detection\nAbstract\nWe pretrain ResNet residual blocks on ImageNet image classification (top-1 error) and transfer the backbone with an FPN for COCO object detection mAP. Both protocols are reported.\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "g07_whisper_tiny",
+  "title": "Domain Adaptation Notes for Tiny ASR",
+  "paper_type": "method",
+  "task_type": "speech",
+  "datasets": [
+    "LibriSpeech"
+  ],
+  "metrics": [
+    "WER"
+  ],
+  "components": [
+    "ASR",
+    "mel-spectrogram",
+    "encoder-decoder"
+  ],
+  "text": "Domain Adaptation Notes for Tiny ASR\nAbstract\nWe fine-tune an automatic speech recognition (ASR) encoder-decoder on LibriSpeech clean-100 using mel-spectrograms. Word error rate (WER) improves from 12.4 to 9.8.\n"
+}

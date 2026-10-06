@@ -1,0 +1,16 @@
+{
+  "id": "g12_cf_movies",
+  "title": "Item-Item Collaborative Filtering for Campus Movies",
+  "paper_type": "method",
+  "task_type": "recommender",
+  "datasets": [],
+  "metrics": [
+    "RMSE",
+    "Precision@K"
+  ],
+  "components": [
+    "collaborative filtering",
+    "matrix factorization"
+  ],
+  "text": "Item-Item Collaborative Filtering for Campus Movies\nAbstract\nWe build a recommender system with collaborative filtering and matrix factorization on student movie ratings. RMSE and Precision@K are reported.\n"
+}

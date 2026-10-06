@@ -1,0 +1,18 @@
+{
+  "id": "g14_bytetrack_lobby",
+  "title": "ByteTrack for Lobby Pedestrian Flow",
+  "paper_type": "method",
+  "task_type": "object_detection_tracking",
+  "datasets": [
+    "MOT17"
+  ],
+  "metrics": [
+    "MOTA",
+    "IDF1"
+  ],
+  "components": [
+    "ByteTrack",
+    "Re-ID"
+  ],
+  "text": "ByteTrack for Lobby Pedestrian Flow\nAbstract\nWe combine a detector with ByteTrack multiple object tracking and light Re-ID. On MOT17-style clips MOTA is 0.55 and IDF1 0.48.\n"
+}

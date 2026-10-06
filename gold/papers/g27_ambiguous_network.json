@@ -1,0 +1,10 @@
+{
+  "id": "g27_ambiguous_network",
+  "title": "On Networks and Performance in Lab Infrastructure",
+  "paper_type": "method",
+  "task_type": "unknown",
+  "datasets": [],
+  "metrics": [],
+  "components": [],
+  "text": "On Networks and Performance in Lab Infrastructure\nAbstract\nWe discuss campus network switches and performance monitoring dashboards. Accuracy here means uptime accounting, not classifiers.\n"
+}

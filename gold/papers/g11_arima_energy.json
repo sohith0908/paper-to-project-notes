@@ -1,0 +1,16 @@
+{
+  "id": "g11_arima_energy",
+  "title": "ARIMA Forecasting for Campus Energy Load",
+  "paper_type": "method",
+  "task_type": "time_series",
+  "datasets": [],
+  "metrics": [
+    "MAE",
+    "RMSE"
+  ],
+  "components": [
+    "ARIMA",
+    "lag features"
+  ],
+  "text": "ARIMA Forecasting for Campus Energy Load\nAbstract\nWe forecast campus energy load as a time-series problem using ARIMA and lag features. MAE and RMSE are reported on a rolling origin split.\n"
+}

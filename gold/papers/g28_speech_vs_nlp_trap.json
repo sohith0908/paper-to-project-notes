@@ -1,0 +1,18 @@
+{
+  "id": "g28_speech_vs_nlp_trap",
+  "title": "Transcribing Lectures with Whisper-tiny",
+  "paper_type": "method",
+  "task_type": "speech",
+  "datasets": [
+    "LibriSpeech"
+  ],
+  "metrics": [
+    "WER"
+  ],
+  "components": [
+    "Whisper",
+    "ASR",
+    "mel-spectrogram"
+  ],
+  "text": "Transcribing Lectures with Whisper-tiny\nAbstract\nWe use Whisper for automatic speech recognition (ASR) on lecture audio related to LibriSpeech-style evaluation. Word error rate (WER) is the metric. Mel-spectrograms are intermediate features. This is not text classification.\n"
+}

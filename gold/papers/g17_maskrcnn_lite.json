@@ -1,0 +1,17 @@
+{
+  "id": "g17_maskrcnn_lite",
+  "title": "Lite Mask R-CNN Notes for Shelf Instance Segmentation",
+  "paper_type": "method",
+  "task_type": "semantic_segmentation",
+  "datasets": [
+    "COCO"
+  ],
+  "metrics": [
+    "mIoU"
+  ],
+  "components": [
+    "Mask R-CNN",
+    "instance segmentation"
+  ],
+  "text": "Lite Mask R-CNN Notes for Shelf Instance Segmentation\nAbstract\nWe study Mask R-CNN for instance segmentation of retail shelves on a COCO-format set and report mIoU. Semantic segmentation baselines are compared.\n"
+}

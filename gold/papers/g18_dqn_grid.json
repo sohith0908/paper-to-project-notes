@@ -1,0 +1,16 @@
+{
+  "id": "g18_dqn_grid",
+  "title": "DQN on a Tiny Gridworld",
+  "paper_type": "method",
+  "task_type": "reinforcement_learning",
+  "datasets": [],
+  "metrics": [
+    "success rate"
+  ],
+  "components": [
+    "DQN",
+    "replay buffer",
+    "Q-learning"
+  ],
+  "text": "DQN on a Tiny Gridworld\nAbstract\nWe apply deep Q-learning (DQN) reinforcement learning with a replay buffer on a tiny gridworld. Success rate and episodic reward are tracked.\n"
+}

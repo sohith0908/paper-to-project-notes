@@ -1,0 +1,16 @@
+{
+  "id": "g05_ppo_cartpole",
+  "title": "PPO Stability Tricks on Classic Control",
+  "paper_type": "method",
+  "task_type": "reinforcement_learning",
+  "datasets": [],
+  "metrics": [
+    "episodic reward"
+  ],
+  "components": [
+    "PPO",
+    "policy network",
+    "advantage estimation"
+  ],
+  "text": "PPO Stability Tricks on Classic Control\nAbstract\nWe study proximal policy optimization (PPO) reinforcement learning on OpenAI Gym CartPole. We plot episodic reward and discuss the reward function and actor-critic style updates.\n"
+}

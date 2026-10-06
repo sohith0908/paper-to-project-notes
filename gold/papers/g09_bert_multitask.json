@@ -1,0 +1,21 @@
+{
+  "id": "g09_bert_multitask",
+  "title": "Multi-task BERT Fine-Tuning Notes",
+  "paper_type": "method",
+  "task_type": "nlp_text",
+  "datasets": [
+    "GLUE",
+    "SQuAD"
+  ],
+  "metrics": [
+    "F1",
+    "accuracy"
+  ],
+  "components": [
+    "BERT",
+    "transformer",
+    "attention",
+    "masked language modeling"
+  ],
+  "text": "Multi-task BERT Fine-Tuning Notes\nAbstract\nWe fine-tune BERT transformers with attention for text classification, named entity recognition, and question answering on GLUE and SQuAD after masked language modeling pretraining. This NLP study is multi-task.\n"
+}

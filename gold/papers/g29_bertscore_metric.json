@@ -1,0 +1,25 @@
+{
+  "id": "g29_bertscore_metric",
+  "title": "BERTScore: Evaluating Text Generation with BERT",
+  "paper_type": "method",
+  "task_type": "nlp_text",
+  "contribution": "new_metric",
+  "datasets": [
+    "WMT",
+    "PAWS",
+    "COCO Captions"
+  ],
+  "metrics": [
+    "Pearson",
+    "Kendall",
+    "BLEU"
+  ],
+  "components": [
+    "BERTScore",
+    "cosine similarity",
+    "greedy matching",
+    "IDF weighting",
+    "BERT"
+  ],
+  "text": "BERTScore: Evaluating Text Generation with BERT\nAbstract\nWe propose BERTScore, an automatic evaluation metric for text generation. Existing metrics rely on exact matches and fail to capture paraphrases. Instead of exact matches, we compute similarity using contextual embeddings from pretrained BERT with greedy matching and optional IDF weighting. BERTScore correlates better with human judgments than BLEU and METEOR on WMT metrics shared tasks, COCO Captions, and adversarial paraphrase detection (PAWS). Finally, we use baseline rescaling for readability. Pearson and Kendall correlations are reported. No classifier is fine-tuned.\n"
+}

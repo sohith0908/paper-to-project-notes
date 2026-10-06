@@ -1,0 +1,21 @@
+{
+  "id": "g16_he_resnet",
+  "title": "Deep Residual Learning for Image Recognition",
+  "paper_type": "method",
+  "task_type": "image_classification",
+  "datasets": [
+    "ImageNet",
+    "CIFAR-10"
+  ],
+  "metrics": [
+    "top-5 error",
+    "3.57%"
+  ],
+  "components": [
+    "residual learning",
+    "identity shortcut",
+    "bottleneck",
+    "ResNet"
+  ],
+  "text": "Deep Residual Learning for Image Recognition\nAbstract\nDeeper neural networks are more difficult to train. We present a residual learning framework with identity skip connections. On ImageNet an ensemble achieves 3.57% top-5 error. CIFAR-10 uses 45k training and 5k validation. The degradation problem is addressed. plain-18 27.94% plain-34 28.54%.\n"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "g10_xgboost_churn",
+  "title": "XGBoost for Telecom Churn Tabular Prediction",
+  "paper_type": "method",
+  "task_type": "classic_tabular_ml",
+  "datasets": [
+    "Adult"
+  ],
+  "metrics": [
+    "AUC",
+    "logloss"
+  ],
+  "components": [
+    "XGBoost",
+    "gradient boosting",
+    "feature importance"
+  ],
+  "text": "XGBoost for Telecom Churn Tabular Prediction\nAbstract\nWe apply XGBoost gradient boosting on a tabular churn dataset similar to Adult. We report AUC 0.84 and logloss, with feature importance analysis. No YOLO or vision modules.\n"
+}

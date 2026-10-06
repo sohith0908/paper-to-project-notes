@@ -1,0 +1,18 @@
+{
+  "id": "g03_toy_dcgan",
+  "title": "A Tiny DCGAN for Fashion Thumbnail Synthesis",
+  "paper_type": "method",
+  "task_type": "generative_models",
+  "datasets": [
+    "Fashion-MNIST"
+  ],
+  "metrics": [
+    "FID"
+  ],
+  "components": [
+    "GAN",
+    "generator",
+    "discriminator"
+  ],
+  "text": "A Tiny DCGAN for Fashion Thumbnail Synthesis\nAbstract\nWe train a generative adversarial network (GAN) with a generator and discriminator on Fashion-MNIST thumbnails. We report FID 42.1. This is not a classification study.\n"
+}

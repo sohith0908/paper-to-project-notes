@@ -1,0 +1,10 @@
+{
+  "id": "g25_unknown_optics",
+  "title": "Notes on Optical Bench Calibration Drift",
+  "paper_type": "method",
+  "task_type": "unknown",
+  "datasets": [],
+  "metrics": [],
+  "components": [],
+  "text": "Notes on Optical Bench Calibration Drift\nAbstract\nWe document calibration drift of an optical bench over humidity cycles. No machine learning model is proposed; this is instrumentation notes.\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "g02_unet_lung",
+  "title": "U-Net for Lung CT Semantic Segmentation",
+  "paper_type": "method",
+  "task_type": "semantic_segmentation",
+  "datasets": [
+    "Cityscapes"
+  ],
+  "metrics": [
+    "mIoU"
+  ],
+  "components": [
+    "U-Net",
+    "encoder-decoder",
+    "skip connection"
+  ],
+  "text": "U-Net for Lung CT Semantic Segmentation\nAbstract\nWe apply a U-Net encoder-decoder with skip connections for semantic segmentation of lung CT. We report mIoU 0.78 on a Cityscapes-style medical split. Pixel-wise labels are required.\n"
+}

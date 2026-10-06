@@ -1,0 +1,19 @@
+{
+  "id": "g01_leaf_disease_cnn",
+  "title": "Lightweight CNN for Tomato Leaf Disease Classification",
+  "paper_type": "method",
+  "task_type": "image_classification",
+  "datasets": [
+    "PlantVillage"
+  ],
+  "metrics": [
+    "accuracy",
+    "F1"
+  ],
+  "components": [
+    "CNN",
+    "data augmentation",
+    "dropout"
+  ],
+  "text": "Lightweight CNN for Tomato Leaf Disease Classification\nAbstract\nWe propose a lightweight CNN for image classification of tomato leaf diseases. On a PlantVillage subset we report accuracy 0.94 and macro-F1 0.91 using data augmentation and dropout. We do not address object detection.\n"
+}
