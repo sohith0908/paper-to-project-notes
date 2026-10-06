@@ -6,7 +6,20 @@ Works from **PDF upload**, **pasted text**, or **title / DOI / arXiv id** search
 
 ---
 
-## For other people (easiest)
+## Go live for everyone (recommended)
+
+So **anyone** opens a link — no CMD, no Python install:
+
+1. Log in once: `gh auth login` (browser).
+2. Double-click **`deploy_github.bat`** (creates a **public** GitHub repo and pushes).
+3. Open https://share.streamlit.io → **New app** → pick that repo → Main file: **`app.py`** → **Deploy**.
+4. Share the `*.streamlit.app` URL.
+
+Step-by-step: see **[DEPLOY.md](DEPLOY.md)**.
+
+---
+
+## For other people (local install)
 
 ### Option A — Double-click (Windows)
 
