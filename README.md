@@ -17,6 +17,8 @@ Works from **PDF upload**, **pasted text**, or **title / DOI / arXiv id** search
 
 Hosted on [Streamlit Community Cloud](https://share.streamlit.io) from this repo.
 
+A GitHub Action (`.github/workflows/keep-alive.yml`) pings this URL every **10 minutes** so the free app is less likely to sleep. You can also run it manually under the repo **Actions** tab → **Keep Streamlit app awake** → **Run workflow**.
+
 ---
 
 ## Redeploy / update the live app

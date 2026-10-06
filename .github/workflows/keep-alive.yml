@@ -1,0 +1,37 @@
+# Ping the live Streamlit app so free-tier sleep is less likely.
+# Schedule can lag a few minutes under GitHub load; that is normal.
+
+name: Keep Streamlit app awake
+
+on:
+  schedule:
+    # Every 10 minutes (UTC)
+    - cron: "*/10 * * * *"
+  workflow_dispatch: # allow manual "Run workflow" from GitHub Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Ping live app
+        env:
+          APP_URL: https://paper-to-project-notes-gq8eupt2k8vyzd3q6kt7gy.streamlit.app/
+        run: |
+          set -e
+          echo "Pinging $APP_URL"
+          # A few retries help if the app is cold-starting
+          for i in 1 2 3; do
+            code=$(curl -sS -o /tmp/keepalive_body.txt -w "%{http_code}" \
+              --max-time 60 \
+              -A "paper-to-project-keepalive/1.0" \
+              "$APP_URL" || echo "000")
+            echo "Attempt $i -> HTTP $code"
+            if [ "$code" = "200" ] || [ "$code" = "302" ] || [ "$code" = "303" ] || [ "$code" = "307" ]; then
+              echo "OK"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "Ping failed after retries (app may still wake on next real visit)."
+          exit 1
